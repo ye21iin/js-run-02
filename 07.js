@@ -23,8 +23,17 @@
  *
  */
 
+function is20s(x) {
+  if (x.age < 30 && x.age > 19) {
+    return true;
+  }
+}
 // TODO: get20sEmail 함수를 작성하세요.
-function get20sEmail() {}
+function get20sEmail(arr) {
+  const newEmail = [];
+  const get20sArr = arr.filter(is20s);
+  return ;
+}
 
 // export를 수정하지 마세요.
 export { get20sEmail };

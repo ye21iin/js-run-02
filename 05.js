@@ -21,10 +21,24 @@
  */
 
 // TODO: findUserByName 함수를 작성하세요.
-function findUserByName() {}
+// function findUserByName(usersArr, name) {
+//   let result = usersArr.find((x) => x === `{"name":${name}}`);
+//   console.log(result);
+//   return result !== undefined ? result : null;
+// }
+
+function findUserByName(usersArr, name) {
+  let result = usersArr.values().find((x) => x === name);
+  console.log(result);
+  return result !== undefined ? result : null;
+}
+
+findUserByName([{ name: "Bob" }], "Bob");
 
 // TODO: findIndexOf 함수를 작성하세요.
-function findIndexOf() {}
+function findIndexOf(arr, value) {
+  return arr.findIndex((x) => x === value);
+}
 
 // export를 수정하지 마세요.
 export { findUserByName, findIndexOf };
