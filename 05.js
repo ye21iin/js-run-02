@@ -28,8 +28,7 @@
 // }
 
 function findUserByName(usersArr, name) {
-  let result = usersArr.values().find((x) => x === name);
-  console.log(result);
+  let result = usersArr.find((x) => x.name === name);
   return result !== undefined ? result : null;
 }
 
