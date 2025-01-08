@@ -11,6 +11,9 @@
  */
 
 // TODO: calculateStatistics 함수를 작성하세요.
-export function calculateStatistics(users) {
+function calculateStatistics(users) {
   // TODO
 }
+
+// export를 수정하지 마세요.
+export { calculateStatistics };

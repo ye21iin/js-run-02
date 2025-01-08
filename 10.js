@@ -29,6 +29,9 @@
 
 // TODO: groupBy 함수를 작성하세요.
 
-export function groupBy(arr, key) {
+function groupBy(arr, key) {
   // 여기에 코드를 작성하세요.
 }
+
+// export를 수정하지 마세요.
+export { groupBy };
